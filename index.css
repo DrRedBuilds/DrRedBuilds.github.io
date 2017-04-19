@@ -1,0 +1,67 @@
+a {
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #444444;
+	padding: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+a:hover {
+background-color: #222222;
+}
+
+nav {
+	display: block;
+	background-color: #999999;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	opacity: .85
+}
+
+nav:hover {
+	opacity: 1;
+}
+
+.guardian {
+	background-image: url("guardian.png");
+}
+
+.base {
+	background-image: url("base.png");
+}
+
+.tunnel {
+	background-image: url("tunnel.png");
+}
+
+.nether {
+	background-image: url("nether.png");
+}
+
+h1,
+p {
+	background-color: #ffffff
+	color: #000000;
+	opacity: 1;
+	text-align: center;
+	padding: 10px;
+}
+
+p {
+    color: #000000;
+}
+
+body {
+	margin: 0;
+}
+
+p {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 20px 20px 20px 20px;
+	border-radius: 10px;
+	margin-left: 23%;
+	margin-right: 23%;
+}
