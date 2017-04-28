@@ -111,26 +111,3 @@ nav {
 	border-bottom: 1px solid black;
 	top: 0;
 }
-	background-color: #ffffff
-	color: #000000;
-	opacity: 1;
-	text-align: center;
-	padding: 10px;
-}
-
-p {
-    color: #000000;
-}
-
-body {
-	margin: 0;
-	background-size: 100% 100%;
-}
-
-p {
-	background-color: rgba(255, 255, 255, 0.4);
-	padding: 20px 20px 20px 20px;
-	border-radius: 10px;
-	margin-left: 23%;
-	margin-right: 23%;
-}
