@@ -1,27 +1,19 @@
-a {
+nav a {
 	display: inline-block;
 	color: #ffffff;
 	text-decoration: none;
-	background-color: #444444;
+	background-color: #494949;
 	padding: 5px;
 	border-radius: 5px;
 	text-align: center;
 }
 
-a:hover {
-background-color: #222222;
+nav a:hover {
+background-color: #333333;
 }
 
-nav {
-	display: block;
-	background-color: #999999;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	opacity: .85
-}
-
-nav:hover {
+nav:hover,
+footer:hover {
 	opacity: 1;
 }
 
@@ -43,6 +35,82 @@ nav:hover {
 
 h1,
 p {
+	background-color: #ffffff
+	color: #000000;
+	opacity: 1;
+	text-align: center;
+	padding: 10px;
+}
+
+p {
+    color: #000000;
+}
+
+body {
+	margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	margin-left: 23%;
+	margin-right: 23%;
+	margin-bottom: 50px;
+	padding-top: 0;
+
+}
+
+p a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+p a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+ol {
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.leftAlign {
+	text-align: left;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.top {
+	margin-top: 60px;
+}
+
+nav,
+footer {
+	background-color: #999999;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	opacity: 1;
+}
+
+footer {
+	bottom: 0;
+	border-top: 1px solid black;
+}
+
+nav {
+	border-bottom: 1px solid black;
+	top: 0;
+}
 	background-color: #ffffff
 	color: #000000;
 	opacity: 1;
