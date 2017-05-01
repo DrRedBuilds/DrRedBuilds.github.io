@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Raleway|Slabo+27px|Ubuntu');
 nav a {
 	display: inline-block;
 	color: #ffffff;
@@ -6,10 +7,12 @@ nav a {
 	padding: 5px;
 	border-radius: 5px;
 	text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 nav a:hover {
-background-color: #333333;
+	background-color: #333333;
 }
 
 nav:hover,
@@ -33,51 +36,46 @@ footer:hover {
 	background-image: url("nether.png");
 }
 
-h1,
-p {
-	background-color: #ffffff
-	color: #000000;
-	opacity: 1;
-	text-align: center;
-	padding: 10px;
-}
-
-p {
-    color: #000000;
-}
-
 body {
-	margin: 0;
+    margin: 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Slabo 27px', serif;
 }
 
 .text {
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.6);
 	border-radius: 10px;
 	margin-left: 23%;
 	margin-right: 23%;
-	margin-bottom: 50px;
-	padding-top: 0;
-
+	margin-bottom: 70px;
+    text-align: center;
+	color: #000000;
+	padding: 1px 10px 1px 10px;
 }
 
 p a:hover {
-	color: blue;
+	color: #000088;
 	text-decoration: underline;
 }
 
 p a {
 	text-decoration: none;
-	color: blue;
+	color: #000088;
 	font-weight: bold;
 }
 
 ol {
 	padding-right: 10px;
 	padding-bottom: 10px;
+}
+
+ol, ul, .listheading {
+	text-align: left;
+	font-family: 'Ubuntu', sans-serif;
+
 }
 
 .leftAlign {
@@ -110,4 +108,21 @@ footer {
 nav {
 	border-bottom: 1px solid black;
 	top: 0;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+	font-size: 120%;
+}
+
+.bottom {
+	font-size: 70%;
+}
+
+.listheading {
+	font-size: 100%;
 }
